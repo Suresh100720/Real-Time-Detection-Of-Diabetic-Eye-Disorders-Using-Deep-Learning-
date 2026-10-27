@@ -1,0 +1,12 @@
+@'
+.venv/
+__pycache__/
+*.py[cod]
+.env
+user_data.db
+static/uploads/*
+static/processed/*
+check_model.py
+check_data.py
+check_image_*.jpg
+'@ | Set-Content .gitignore -Encoding UTF8
